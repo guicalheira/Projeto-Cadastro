@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import CustomerCollection from "../backend/db/CustomerCollection";
 import Customer from "../core/Customer";
 import CustomerRep from "../core/CustomerRep";
-import useTableOrForm from "./useTableorForm";
+import useTableOrForm from "./useTableOrForm";
 
 export default function useCustomers(){
     const repo : CustomerRep = new CustomerCollection()
